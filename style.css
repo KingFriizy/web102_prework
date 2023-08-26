@@ -9,6 +9,15 @@ body {
     width: 50px;
 }
 
+.stats-container{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+.stats-card {
+    flex-grow: 1;
+}
+
 .header {
     display: flex;
     background-color: lightblue;
@@ -72,4 +81,10 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 30px lightblue;
 }
